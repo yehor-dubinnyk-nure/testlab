@@ -30,7 +30,7 @@ export class EchartsPieComponent implements AfterViewInit, OnDestroy {
         legend: {
           orient: 'vertical',
           left: 'left',
-          data: ['USA', 'Germany', 'France', 'Canada', 'Russia'],
+          data: ['USA', 'Germany', 'France', 'Canada', 'Ukraine'],
           textStyle: {
             color: echarts.textColor,
           },
@@ -45,7 +45,7 @@ export class EchartsPieComponent implements AfterViewInit, OnDestroy {
               { value: 335, name: 'Germany' },
               { value: 310, name: 'France' },
               { value: 234, name: 'Canada' },
-              { value: 135, name: 'Russia' },
+              { value: 135, name: 'Ukraine' },
               { value: 1548, name: 'USA' },
             ],
             itemStyle: {
